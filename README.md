@@ -37,14 +37,24 @@ Aplicación web hecha en Django y Mysql, ademas por agregar el uso de Firebase p
   * Version: 1.2.5 
 
 ### Ejecucion
+Tener instalado pip y virtualenv, Mysql:
 
- Ejecutar en el proyecto:
+Una vez instalado, crear una Base de datos llamada Datosnow_data:
+* $ mysql -u usuario -p
+ * Ingresan su clave
+* > create database Datosnow_data;
+ * Nota: en todo caso modificar el archivo my.cnf y cambiar los datos de la conexion y la base de datos.
  
-* $ virtualenv projbd
-* $ pip install request
-* $ pip install python-firebase
-* Nota: python-fire instalado desde pip, no esta la version actualizada, configurar el archivo firebase.py
-* modificar metodos get, post, push, delete -> [commit #25 o #22 del proyecto python-firebase (github)](https://github.com/ozgur/python-firebase/pull/25/commits/39ba43f1314c95c9e4babaaeb8483ba3d4c6d639)
+Luego darle permisos al archivo install.sh :
+* $ sudo chmod 777 install.sh 
+Nos ubicamos dentro de la carpeta y ejecutamos el script de instalacion:
+* $ ./install.sh
+
+ * Nota: El script inicia el servidor por defecto en la direccion 127.0.0.1:8000
+
+Para iniciar otra vez, se ubican en la ubicacion donde se encuentra el proyecto y ejecutan:
+* $ source kernel/bin/activate
+* $ python manage.py runserver
 
 
 ### INTEGRANTES:
