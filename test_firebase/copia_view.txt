@@ -1,0 +1,32 @@
+from firebase import firebase 
+
+'''
+def index(request):
+
+	rpt = ""
+	firebasex = firebase.FirebaseApplication ( 'https://datosnow.firebaseio.com/' , None ) 
+	#result = firebasex.get ( '/Usuarios/' , 'Usuario_01' )
+	#result = firebasex.get ( '/appName/' , None )
+	#result = firebasex.get('/Usuarios/Usuario_01/', None)
+
+	#Eliminar de tabla Usuarios -> Usuario_10
+	#firebasex.delete('/Usuarios','Usuario_10')
+
+	#Agregar datos a la tabla Usuarios -> new_user
+	new_user = {
+		'clave':'miclave',
+		'user':'usuario_nuevo2'
+	}
+	
+
+	#result = firebasex.post('/Usuarios/', new_user, params={'print': 'pretty'},headers={'X_FANCY_HEADER': 'very fancy'})
+
+	#Agregar sin generar hijo a tabla Usuarios -> padre Usuario_X -> dato json new_user
+	result = firebasex.put('Usuarios','Usuario_11', new_user)
+
+	rpt = str(result)
+
+	return HttpResponse("Resultado :"+"\n"+rpt)
+
+	pass
+'''

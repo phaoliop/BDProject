@@ -1,0 +1,29 @@
+{
+  "Usuarios" : {
+    "Usuario_00" : {
+      "Clave" : "super",
+      "User" : "super"
+    },
+    "Usuario_01" : {
+      "Clave" : "miclave",
+      "User" : "PaoloR"
+    },
+    "Usuario_02" : {
+      "Clave" : "ejemplo",
+      "User" : "ejemplo"
+    },
+    "Usuario_03" : {
+      "Clave" : "otraclave",
+      "User" : "Usuario_03"
+    },
+    "Usuario_04" : {
+      "Clave" : "otraclave4",
+      "User" : "Usuario_04"
+    },
+    "Usuario_11" : {
+      "clave" : "miclave2",
+      "user" : "usuario_nuevo2"
+    }
+  },
+  "appName" : "datosnow"
+}

@@ -1,0 +1,8 @@
+#Django
+Django==1.11.5
+
+#MySQL-python
+MySQL-python==1.2.5
+
+#requests
+requests==2.18.4

@@ -1,0 +1,40 @@
+delimiter $
+
+create procedure insertar(in nom varchar(150), in ape varchar(150))
+
+begin
+								 								
+insert into usuario (nombre,apellido) values (nom,ape);
+
+
+
+end	$
+
+//INSERTAR : AÑADE A LA BD UN USUARIO Y ASIGNA UN ID Y EL MOMENTO EN QUE LO CREASTE
+
+delimiter $
+
+create procedure borrar(in id int)
+
+begin
+	DELETE FROM usuario where id_usuario = id;
+
+end	$
+
+
+delimiter $
+
+create procedure actualizar1 ( in id int , in nom varchar(150) , in ape varchar(150))
+
+begin
+	UPDATE usuario
+    set nombre=nom , apellido = ape where id_usuario=id;
+
+end	 $
+
+
+--------------------------------------------------------------------------------------
+llamas a los PA  con 
+call (nombre del PA) (parametros que tiene)
+Ejemplo:
+call insertar ( ' juanito ' , 'perez')

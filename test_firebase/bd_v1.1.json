@@ -1,0 +1,99 @@
+{
+  "PersonaProf" : {
+    	"Profesional_00" : {
+ 		"dni" : "111",
+      		"Nombre" : "Carlos",
+		"apellidoPaterno" : "Contreras", 
+		"apellidoMaterno" : "Zamudio",
+      		"Universidad" : "UNI" , 
+      		"Vigente" : "Activo"
+    	},
+	"Profesional_01" : {
+		"dni" : "222",
+      		"Nombre" : "Alberto",
+      		"apellidoPaterno" : "Rojas", 
+		"apellidoMaterno" : "Torres",
+      		"Universidad" : "UNMSM" , 
+      		"Vigente" : "Activo"
+    	},
+    	"Profesional_02" : {
+		"dni" : "333",
+      		"Nombre" : "Mario",
+      		"apellidoPaterno" : "Lujan", 
+		"apellidoMaterno" : "Toribio",
+      		"Universidad" : "UNMSM" , 
+      		"Vigente" : "Activo"
+    	},
+    	"Profesional_03" : {
+		"dni" : "444",
+      		"Nombre" : "Alexander",
+      		"apellidoPaterno" : "Rivera", 
+		"apellidoMaterno" : "Fernandez",
+      		"Universidad" : "UNI" , 
+      		"Vigente" : "Activo"
+    	}
+
+  },
+
+
+   "Profesiones" : {
+	"profesion_00" : {
+		"Grado" : "Magister",
+		"DesProf" : "Matematetica"
+	},
+	"profesion_01" : {
+		"Grado" : "Master",
+		"DesProf" : "Computacion"
+	}
+  },
+
+
+ "Profesional-Profesion" : {
+	"profesion_00" : {
+		"Profesional_00" : "111",
+		"Profesional_01" : "222"
+		},
+	"profesion_01" : {
+		"Profesional_02" : "333",
+		"Profesional_03" : "444"
+		}
+
+  },
+
+  "Usuarios" : {
+    "Usuario_00" : {
+      "Clave" : "super",
+      "User" : "super"
+    },
+    "Usuario_01" : {
+      "Clave" : "miclave",
+      "User" : "PaoloR"
+    },
+    "Usuario_02" : {
+      "Clave" : "ejemplo",
+      "User" : "ejemplo"
+    },
+    "Usuario_03" : {
+      "Clave" : "otraclave",
+      "User" : "Usuario_03"
+    },
+    "Usuario_04" : {
+      "Clave" : "otraclave4",
+      "User" : "Usuario_04"
+    },
+    "Usuario_11" : {
+      "clave" : "miclave2",
+      "user" : "usuario_nuevo2"
+    }
+  },
+  "appName" : "datosnow"
+
+
+
+}
+
+
+	
+
+
+
