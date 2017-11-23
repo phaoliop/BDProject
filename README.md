@@ -57,10 +57,8 @@ Aplicación web hecha en Django y Mysql, ademas por agregar el uso de Firebase p
  
 ### Prueba Web:
 #### Prueba-1:
-![Prueba-1 no disponible](https://github.com/phaoliop/Datosnow/blob/master/imagenes/prueba-1.png)
+![Prueba-1 no disponible](https://github.com/phaoliop/BDProject/blob/master/imagenes/inicio-1.png)
 
 #### Prueba-2:
-![Prueba-2 no disponible](https://github.com/phaoliop/Datosnow/blob/master/imagenes/prueba-2.png)
+![Prueba-2 no disponible](https://github.com/phaoliop/BDProject/blob/master/imagenes/inicio-2.png)
 
-#### Prueba-3:
-![Prueba-3 no disponible](https://github.com/phaoliop/Datosnow/blob/master/imagenes/prueba-3.png)
